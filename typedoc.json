@@ -1,0 +1,6 @@
+{
+    "inputFiles": ["./lib"],
+    "out": "docs",
+    "stripInternal": true,
+    "theme": "default"
+}
