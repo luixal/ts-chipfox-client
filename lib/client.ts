@@ -160,8 +160,8 @@ export class ChipFoxClient {
             type: QueryTypes.TrackerData,
             device_id: deviceId
         }
-        if (options.after) data.after = options.after?.getTime();
-        if (options.before) data.before = options.before?.getTime();
+        if (options.after) data.after = Math.floor(options.after.getTime() / 1000);
+        if (options.before) data.before = Math.floor(options.before.getTime() / 1000);
         if (options.limit) data.limit = options.limit;
         // perform the query:
         try {

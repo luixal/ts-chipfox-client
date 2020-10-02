@@ -45,7 +45,7 @@ This class represents a device.
 
 \+ **new Device**(`response`: IDeviceResponse): [Device](_entities_device_.device.md)
 
-*Defined in entities/Device.ts:52*
+*Defined in [entities/Device.ts:52](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L52)*
 
 Creates a new [Device](_entities_device_.device.md) instance.
 
@@ -63,7 +63,7 @@ Name | Type | Description |
 
 •  **battery**: number
 
-*Defined in entities/Device.ts:38*
+*Defined in [entities/Device.ts:38](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L38)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 •  **color**: string
 
-*Defined in entities/Device.ts:43*
+*Defined in [entities/Device.ts:43](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L43)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 •  **firmwareVersion**: string
 
-*Defined in entities/Device.ts:41*
+*Defined in [entities/Device.ts:41](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L41)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 •  **geotype**: string
 
-*Defined in entities/Device.ts:45*
+*Defined in [entities/Device.ts:45](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L45)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 •  **gps**: string
 
-*Defined in entities/Device.ts:44*
+*Defined in [entities/Device.ts:44](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L44)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 •  **id**: string
 
-*Defined in entities/Device.ts:33*
+*Defined in [entities/Device.ts:33](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L33)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 •  **ignoreTimeout**: number
 
-*Defined in entities/Device.ts:46*
+*Defined in [entities/Device.ts:46](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L46)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 •  **lastSeen**: Date
 
-*Defined in entities/Device.ts:37*
+*Defined in [entities/Device.ts:37](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L37)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 •  **lat**: number
 
-*Defined in entities/Device.ts:35*
+*Defined in [entities/Device.ts:35](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L35)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 •  **lng**: number
 
-*Defined in entities/Device.ts:36*
+*Defined in [entities/Device.ts:36](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L36)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 •  **motionDescription**: string
 
-*Defined in entities/Device.ts:52*
+*Defined in [entities/Device.ts:52](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L52)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 •  **motionLock**: boolean
 
-*Defined in entities/Device.ts:51*
+*Defined in [entities/Device.ts:51](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L51)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 •  **motionLockShow**: boolean
 
-*Defined in entities/Device.ts:50*
+*Defined in [entities/Device.ts:50](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L50)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 •  **name**: string
 
-*Defined in entities/Device.ts:34*
+*Defined in [entities/Device.ts:34](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L34)*
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 •  **productCertificate**: string
 
-*Defined in entities/Device.ts:40*
+*Defined in [entities/Device.ts:40](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L40)*
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 •  **regDone**: string
 
-*Defined in entities/Device.ts:47*
+*Defined in [entities/Device.ts:47](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L47)*
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 •  **status**: number
 
-*Defined in entities/Device.ts:42*
+*Defined in [entities/Device.ts:42](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L42)*
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 •  **suspend**: number
 
-*Defined in entities/Device.ts:49*
+*Defined in [entities/Device.ts:49](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L49)*
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 •  **temperature**: number
 
-*Defined in entities/Device.ts:39*
+*Defined in [entities/Device.ts:39](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L39)*
 
 ___
 
@@ -215,4 +215,4 @@ ___
 
 •  **tokenValidity**: string
 
-*Defined in entities/Device.ts:48*
+*Defined in [entities/Device.ts:48](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Device.ts#L48)*

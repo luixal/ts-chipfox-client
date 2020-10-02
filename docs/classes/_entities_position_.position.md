@@ -35,7 +35,7 @@ This class represent a device's position in time. Includes some extra info in ad
 
 \+ **new Position**(`position`: IPosition): [Position](_entities_position_.position.md)
 
-*Defined in entities/Position.ts:55*
+*Defined in [entities/Position.ts:55](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L55)*
 
 Creates a new [Position](_entities_position_.position.md) instance.
 
@@ -53,7 +53,7 @@ Name | Type | Description |
 
 •  **computedLocation**: IComputedLocation
 
-*Defined in entities/Position.ts:51*
+*Defined in [entities/Position.ts:51](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L51)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 •  **countryCode**: number
 
-*Defined in entities/Position.ts:54*
+*Defined in [entities/Position.ts:54](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L54)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 •  **data**: string
 
-*Defined in entities/Position.ts:49*
+*Defined in [entities/Position.ts:49](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L49)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 •  **deviceId**: string
 
-*Defined in entities/Position.ts:46*
+*Defined in [entities/Position.ts:46](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L46)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 •  **event**: any
 
-*Defined in entities/Position.ts:48*
+*Defined in [entities/Position.ts:48](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L48)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 •  **lqi**: number
 
-*Defined in entities/Position.ts:53*
+*Defined in [entities/Position.ts:53](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L53)*
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 •  **payload**: IPayload
 
-*Defined in entities/Position.ts:55*
+*Defined in [entities/Position.ts:55](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L55)*
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 •  **seqNumber**: number
 
-*Defined in entities/Position.ts:50*
+*Defined in [entities/Position.ts:50](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L50)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 •  **service**: number
 
-*Defined in entities/Position.ts:52*
+*Defined in [entities/Position.ts:52](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L52)*
 
 ___
 
@@ -125,4 +125,4 @@ ___
 
 •  **time**: Date
 
-*Defined in entities/Position.ts:47*
+*Defined in [entities/Position.ts:47](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/entities/Position.ts#L47)*

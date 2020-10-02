@@ -60,7 +60,7 @@ export class Device {
         this.name = response.name;
         this.lat = parseFloat(response.lat);
         this.lng = parseFloat(response.lng);
-        this.lastSeen = new Date(parseInt(response.lastseen));
+        this.lastSeen = new Date( parseInt(response.lastseen) * 1000 );
         this.battery = parseInt(response.battery.slice(0, -1));
         this.temperature = parseInt(response.temperature.replace(/\D/g, ''));
         this.productCertificate = response.product_certificate;
