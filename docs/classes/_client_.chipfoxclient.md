@@ -52,7 +52,7 @@ Usage example:
 
 \+ **new ChipFoxClient**(`username`: string, `password`: string, `uuid`: string, `language`: string): [ChipFoxClient](_client_.chipfoxclient.md)
 
-*Defined in [client.ts:51](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L51)*
+*Defined in [client.ts:51](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L51)*
 
 Creates a new {@link ChipFoxApi} instance.
 
@@ -75,7 +75,7 @@ An instance of {@link ChipFoxApi}.
 
 •  **language**: string
 
-*Defined in [client.ts:48](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L48)*
+*Defined in [client.ts:48](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L48)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 •  **password**: string
 
-*Defined in [client.ts:47](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L47)*
+*Defined in [client.ts:47](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L47)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 •  **username**: string
 
-*Defined in [client.ts:46](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L46)*
+*Defined in [client.ts:46](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L46)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 •  **uuid**: string
 
-*Defined in [client.ts:49](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L49)*
+*Defined in [client.ts:49](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L49)*
 
 ## Methods
 
@@ -107,7 +107,7 @@ ___
 
 ▸ **getDevicePositions**(`deviceId`: string, `options`: { after?: Date ; before?: Date ; limit?: undefined \| number  }): Promise\<[[Position](_entities_position_.position.md)]>
 
-*Defined in [client.ts:156](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L156)*
+*Defined in [client.ts:163](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L163)*
 
 Gets device's positions according to params.
 
@@ -128,7 +128,7 @@ ___
 
 ▸ **getDevices**(): Promise\<[[Device](_entities_device_.device.md)]>
 
-*Defined in [client.ts:129](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L129)*
+*Defined in [client.ts:133](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L133)*
 
 Gets user's devices.
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **login**(): Promise\<any>
 
-*Defined in [client.ts:100](https://github.com/luixal/ts-chipfox-client/blob/7e88eb6/lib/client.ts#L100)*
+*Defined in [client.ts:100](https://github.com/luixal/ts-chipfox-client/blob/9c9288c/lib/client.ts#L100)*
 
 Logs in ChipFox's API.
 

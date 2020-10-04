@@ -98,8 +98,9 @@ export class ChipFoxClient {
      * ```
      */
     async login() {
+        let response
         try {
-            let response = await this.axios.post(
+            response = await this.axios.post(
                 '/',
                 qs.stringify({
                     language: this.language,
@@ -115,9 +116,12 @@ export class ChipFoxClient {
                     }
                 }
             );
+            // in some cases, this shitty API returns 200 code in HTTP response, but then an error status and message in the body:
+            if (response.data.status != 200) throw Error(response.data.response);
+            // return only when logs in successfully:
             return response.data.response;
         } catch(error) {
-            return error;
+            throw error;
         }
     }
 
@@ -136,9 +140,12 @@ export class ChipFoxClient {
                     request: QueryTypes.List
                 })
             );
+            // in some cases, this shitty API returns 200 code in HTTP response, but then an error status and message in the body:
+            if (response.data.status != 200) throw Error(response.data.response);
+            // return only when getting devices:
             return response.data.response.map((r: IDeviceResponse) => new Device(r));
         } catch(error) {
-            return error;
+            throw error;
         }
     }
 
@@ -169,9 +176,12 @@ export class ChipFoxClient {
                 '/',
                 qs.stringify(data)
             );
-            return response.data.response.response.data.map( (position:IPosition) => new Position(position) );
+            // in some cases, this shitty API returns 200 code in HTTP response, but then an error status and message in the body:
+            if (response.data.status != 200) throw Error(response.data.response);
+            // returning only when getting positions:
+            return response.data.response.response?.data?.map( (position:IPosition) => new Position(position) );
         } catch(error) {
-            return error;
+            throw error;
         }
     }
 }
